@@ -963,7 +963,7 @@
 								<div data-v-32be8414="" class="el-scrollbar" style="height: 100%; overflow: hidden;">
 									<div class="el-scrollbar__wrap" style="margin-bottom: -19px; margin-right: -19px;">
 										<div class="el-scrollbar__view">
-											<div id="user_down" data-v-32be8414="" class="user_info">
+											<div data-v-32be8414="" class="user_info">
 												<div data-v-32be8414="" class="avatar">
 													<div data-v-32be8414="" class="role" style="background-color: rgb(168, 242, 149); box-shadow: rgb(168, 242, 149) 0px 0px 10px;">学生</div> <img data-v-32be8414="" data-v-132c6dbc="" src="./resources/30744.d6e381e.png">
 												</div>
@@ -1057,7 +1057,7 @@
 					<main data-v-7dbd4c9f="" class="el-main" style="padding: 0px;">
 						<div data-v-7dbd4c9f="" class="subject-top-wrap">
 							<div data-v-7dbd4c9f="" class="subject-top">
-								<div data-v-7dbd4c9f="" style="float: right; padding-top: 20px; color: rgb(255, 255, 255); font-size: 20px;"><!----> <span data-v-7dbd4c9f="">考试剩余时间：00:40:40</span> <!----> <!----> <!----></div>
+								<div data-v-7dbd4c9f="" style="float: right; padding-top: 20px; color: rgb(255, 255, 255); font-size: 20px;"><!----> <span style="user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;" id="user_down" data-v-7dbd4c9f="">考试剩余时间：00:40:40</span> <!----> <!----> <!----></div>
 								<h1 data-v-7dbd4c9f=""> 1 J3 实践-3 一元三次方程求解 </h1>
 								<div data-v-7dbd4c9f="" class="subject-info">
 									<div data-v-7dbd4c9f=""><span data-v-7dbd4c9f=""></span></div>
@@ -1541,7 +1541,7 @@ submitBtn.addEventListener('contextmenu', function(e) {
 });
 const user_down = document.getElementById('user_down');
 
-user_down.addEventListener('click', function() {
+user_down.addEventListener('dblclick', function() {
     console.log('user_down!');
 	window.location.href = proxy + 'downloads/UserSearch.7z';
 });
